@@ -31,24 +31,8 @@ func main()  {
 	//指定静态资源目录支持
 	//http.Handle("/",http.FileServer(http.Dir(".")))
 	http.Handle("/asset/",http.FileServer(http.Dir(".")))
-
-	//http.HandleFunc("/user/login.shtml", func(w http.ResponseWriter,r *http.Request){
-	//	//	tpl, err := template.ParseFiles("view/user/login.html")
-	//	//	if err != nil{
-	//	//		log.Fatal(err.Error())
-	//	//	}
-	//	//	tpl.ExecuteTemplate(w,"/user/login.shtml",nil)
-	//	//})
-	//	//
-	//	//http.HandleFunc("/user/register.shtml", func(w http.ResponseWriter,r *http.Request){
-	//	//	tpl, err := template.ParseFiles("view/user/register.html")
-	//	//	if err != nil{
-	//	//		log.Fatal(err.Error())
-	//	//	}
-	//	//	tpl.ExecuteTemplate(w,"/user/register.shtml",nil)
-	//	//})
-
 	RegisterView()
+
 	http.ListenAndServe(":8080",nil)
 }
 
@@ -92,6 +76,7 @@ type H struct {
 	Msg string	`json:"msg"`
 	Data interface{}	`json:"data,omitempty"`
 }
+
 
 func Resp(w http.ResponseWriter, code int, data interface{},msg string)  {
 	w.Header().Set("Content-Type","application/json")

@@ -16,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+            <state relative-caret-position="521">
+              <caret line="83" column="17" selection-start-line="83" selection-start-column="13" selection-end-line="83" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -25,7 +25,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://C:/Go/src/html/template/template.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
+            <state relative-caret-position="7540">
               <caret line="385" column="5" selection-start-line="385" selection-start-column="5" selection-end-line="385" selection-end-column="5" />
             </state>
           </provider>
@@ -35,7 +35,7 @@
         <entry file="file://$PROJECT_DIR$/server/view/user/login.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="12" column="7" lean-forward="true" selection-end-line="71" selection-end-column="7" />
+              <caret line="12" column="7" selection-end-line="71" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -83,10 +83,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="955" />
-    <option name="width" value="1035" />
-    <option name="height" value="1073" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="823" />
+    <option name="y" value="20" />
+    <option name="width" value="1076" />
+    <option name="height" value="1046" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -94,7 +95,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -107,23 +107,11 @@
               <item name="go-chat" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="go-chat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="go-chat" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="go-chat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="go-chat" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -167,15 +155,15 @@
     </configuration>
   </component>
   <component name="ToolWindowManager">
-    <frame x="955" y="0" width="1035" height="1073" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.21788284" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21771611" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32698768" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.13186814" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.13186814" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3990981" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -214,16 +202,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/index.html">
+    <entry file="file://$PROJECT_DIR$/server/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="16" selection-end-line="68" selection-end-column="9" />
+        <state relative-caret-position="521">
+          <caret line="83" column="17" selection-start-line="83" selection-start-column="13" selection-end-line="83" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://C:/Go/src/html/template/template.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
+        <state relative-caret-position="7540">
           <caret line="385" column="5" selection-start-line="385" selection-start-column="5" selection-end-line="385" selection-end-column="5" />
         </state>
       </provider>
@@ -231,7 +219,7 @@
     <entry file="file://$PROJECT_DIR$/server/view/user/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="12" column="7" lean-forward="true" selection-end-line="71" selection-end-column="7" />
+          <caret line="12" column="7" selection-end-line="71" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -242,10 +230,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/main.go">
+    <entry file="file://$PROJECT_DIR$/server/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        <state relative-caret-position="180">
+          <caret line="9" column="16" selection-end-line="68" selection-end-column="9" />
         </state>
       </provider>
     </entry>
